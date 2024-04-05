@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/ValueSet/ease-of-respiration-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ease-of-respiration-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/276888009\">276888009</a></td><td>Normal spontaneous respiration (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248549001\">248549001</a></td><td>Labored breathing (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/271825005\">271825005</a></td><td>Respiratory distress (finding)</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/ValueSet/ease-of-respiration-vs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "EaseOfRespirationVS"] ; # 
+  fhir:title [ fhir:v "Ease Of Respiration Value Set"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-04-05T10:16:45+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Result of ease of respiration observation"] ; # 
+  fhir:copyright [ fhir:v "This value set includes content from SNOMED CT, which is copyright 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL/. Implementer use of SNOMED CT is not covered by this agreement"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "276888009" ] ;
+         fhir:display [ fhir:v "Normal spontaneous respiration (finding)" ]
+       ] [
+         fhir:code [ fhir:v "248549001" ] ;
+         fhir:display [ fhir:v "Labored breathing (finding)" ]
+       ] [
+         fhir:code [ fhir:v "271825005" ] ;
+         fhir:display [ fhir:v "Respiratory distress (finding)" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,13 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/ValueSet/ease-of-respiration-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "EaseOfRespirationVS",
+      "title" : "Ease Of Respiration Value Set",
+      "description" : "Result of ease of respiration observation",
+      "systems" : ["http://snomed.info/sct"]
+    }
+  ]
+}

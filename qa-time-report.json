@@ -1,0 +1,256 @@
+{
+  "date" : "Fri, 05 Apr, 2024 10:16:45 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-dhis.exampleIG.json",
+      "size" : 1986,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 28
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 41,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 47
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 527
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 43,
+          "length" : 86
+        },
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 54
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 57,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-PatientExample.json",
+      "size" : 249,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 14
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 27
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 16
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-MyPatient.json",
+      "size" : 597,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 12
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 19
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 41,
+          "length" : 66
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 63
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 572
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 236
+        },
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 1678
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 54,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 57,
+          "length" : 8
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 60,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ease-of-respiration.json",
+      "size" : 1292,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 41,
+          "length" : 72
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 50
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 409
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 325
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 764
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 57,
+          "length" : 11
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 60,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ease-of-respiration-vs.json",
+      "size" : 1081,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 23
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 321
+        },
+        {
+          "activity" : "validate",
+          "start" : 41,
+          "length" : 394
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 18
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 4272
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 57,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}

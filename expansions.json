@@ -1,0 +1,70 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "d04fba73-8976-4f8f-95d8-3809bc519e80",
+  "meta" : {
+    "lastUpdated" : "2024-04-05T10:16:45.525+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.org/ValueSet/ease-of-respiration-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 01-Feb 2024</p><p>This value set contains 3 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-276888009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/276888009\">276888009</a></td><td>http://snomed.info/sct</td><td>SR - Normal spontaneous respiration</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-248549001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/248549001\">248549001</a></td><td>http://snomed.info/sct</td><td>Labored breathing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-271825005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/271825005\">271825005</a></td><td>http://snomed.info/sct</td><td>Respiratory distress</td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/ease-of-respiration-vs",
+      "version" : "0.1.0",
+      "name" : "EaseOfRespirationVS",
+      "title" : "Ease Of Respiration Value Set",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2024-04-05T10:16:45+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:c6e2a408-c524-4ed6-8c45-be7ce0b7ac97",
+        "timestamp" : "2024-04-05T10:16:57+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "276888009",
+          "display" : "SR - Normal spontaneous respiration"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "248549001",
+          "display" : "Labored breathing"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "271825005",
+          "display" : "Respiratory distress"
+        }]
+      }
+    }
+  }]
+}

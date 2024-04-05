@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ease-of-respiration-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/276888009">276888009</a></td><td>Normal spontaneous respiration (finding)</td></tr><tr><td><a href="http://snomed.info/id/248549001">248549001</a></td><td>Labored breathing (finding)</td></tr><tr><td><a href="http://snomed.info/id/271825005">271825005</a></td><td>Respiratory distress (finding)</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://example.org/ValueSet/ease-of-respiration-vs"/>
+  <version value="0.1.0"/>
+  <name value="EaseOfRespirationVS"/>
+  <title value="Ease Of Respiration Value Set"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2024-04-05T10:16:45+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org/"/>
+    </telecom>
+  </contact>
+  <description value="Result of ease of respiration observation"/>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL/. Implementer use of SNOMED CT is not covered by this agreement"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="276888009"/>
+        <display value="Normal spontaneous respiration (finding)"/>
+      </concept>
+      <concept>
+        <code value="248549001"/>
+        <display value="Labored breathing (finding)"/>
+      </concept>
+      <concept>
+        <code value="271825005"/>
+        <display value="Respiratory distress (finding)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

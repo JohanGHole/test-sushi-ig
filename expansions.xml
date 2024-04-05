@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="d04fba73-8976-4f8f-95d8-3809bc519e80"/>
+  <meta>
+    <lastUpdated value="2024-04-05T10:16:45.525+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/ease-of-respiration-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Feb 2024</p>
+            <p>This value set contains 3 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-276888009"> </a>  
+                  <a href="http://snomed.info/id/276888009">276888009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>SR - Normal spontaneous respiration</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-248549001"> </a>  
+                  <a href="http://snomed.info/id/248549001">248549001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Labored breathing</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-271825005"> </a>  
+                  <a href="http://snomed.info/id/271825005">271825005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Respiratory distress</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/ease-of-respiration-vs"/>
+        <version value="0.1.0"/>
+        <name value="EaseOfRespirationVS"/>
+        <title value="Ease Of Respiration Value Set"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2024-04-05T10:16:45+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:c6e2a408-c524-4ed6-8c45-be7ce0b7ac97"/>
+          <timestamp value="2024-04-05T10:16:57+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="276888009"/>
+            <display value="SR - Normal spontaneous respiration"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="248549001"/>
+            <display value="Labored breathing"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="271825005"/>
+            <display value="Respiratory distress"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

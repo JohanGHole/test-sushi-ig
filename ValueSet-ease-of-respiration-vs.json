@@ -1,0 +1,42 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ease-of-respiration-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/276888009\">276888009</a></td><td>Normal spontaneous respiration (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248549001\">248549001</a></td><td>Labored breathing (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/271825005\">271825005</a></td><td>Respiratory distress (finding)</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/ease-of-respiration-vs",
+  "version" : "0.1.0",
+  "name" : "EaseOfRespirationVS",
+  "title" : "Ease Of Respiration Value Set",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2024-04-05T10:16:45+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org/"
+    }]
+  }],
+  "description" : "Result of ease of respiration observation",
+  "copyright" : "This value set includes content from SNOMED CT, which is copyright 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL/. Implementer use of SNOMED CT is not covered by this agreement",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "276888009",
+        "display" : "Normal spontaneous respiration (finding)"
+      },
+      {
+        "code" : "248549001",
+        "display" : "Labored breathing (finding)"
+      },
+      {
+        "code" : "271825005",
+        "display" : "Respiratory distress (finding)"
+      }]
+    }]
+  }
+}
