@@ -1,3 +1,3 @@
 # test-sushi-ig
 
-Feel free to modify this index page with your own awesome content!
+Example IG for practicing FSH, not meant for production. 
