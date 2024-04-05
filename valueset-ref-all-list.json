@@ -66,8 +66,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-MyPatient.html" : "MyPatient",
-      "StructureDefinition-ease-of-respiration.html" : "Ease of Respiration"
+      "StructureDefinition-ease-of-respiration.html" : "Ease of Respiration",
+      "StructureDefinition-MyPatient.html" : "MyPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
